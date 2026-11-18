@@ -2,8 +2,7 @@
 
 COMP 211 AI exploration and presentation. Topic: what happens when ownership of a value moves from one variable to another, and why Rust prevents the original variable from being used afterward.
 
-**Name:** Your Name  
-**Video:** [add link or filename]
+**Name:** Dhanvi Movva  
 
 ## Repository contents
 
