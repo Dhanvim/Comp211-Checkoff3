@@ -69,3 +69,4 @@ error[E0382]: borrow of moved value: `a`
 6 |     println!("{}", a);
   |                    ^ value borrowed here after move
 ```
+# Comp211-Checkoff3
