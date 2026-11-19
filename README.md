@@ -2,8 +2,9 @@
 
 COMP 211 AI exploration and presentation. Topic: what happens when ownership of a value moves from one variable to another, and why Rust prevents the original variable from being used afterward.
 
-**Name:** Your Name  
-**Video:** [add link or filename]
+**Name:** Dhanvi Movva
+**Slides:** https://docs.google.com/presentation/d/1MUN1brPn9620kU1E-AE6Q4c5itZmqgGPAbQlSr1EZ38/edit?usp=sharing 
+**AI Transcript:** https://claude.ai/share/e291b458-d418-4e1d-bc67-5f6e36e9f7c8
 
 ## Repository contents
 
@@ -12,9 +13,8 @@ COMP 211 AI exploration and presentation. Topic: what happens when ownership of 
 | `examples/working/` | Programs that compile and run: moves, `.clone()`, `Copy` types, functions and ownership, reassignment, drop order |
 | `examples/errors/` | Programs that are *supposed* to fail to compile, each with the error code it triggers (E0382, E0507) |
 | `run_all.sh` | Compiles everything and checks that working examples pass and error examples fail with the expected error |
-| `slides/` | Presentation slides |
 | `reflection.md` | Written AI exploration and reflection |
-| `transcript.md` | Full AI conversation |
+
 
 ## Running the examples
 
@@ -69,4 +69,5 @@ error[E0382]: borrow of moved value: `a`
 6 |     println!("{}", a);
   |                    ^ value borrowed here after move
 ```
+# Comp211-Checkoff3
 # Comp211-Checkoff3
